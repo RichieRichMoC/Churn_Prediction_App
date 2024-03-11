@@ -36,13 +36,13 @@ class BooleanToStringTransformer(TransformerMixin):
 # Function to load logistic regression model
 @st.cache_data
 def load_logistic_model():
-    model = joblib.load('./models/finished_logistic_model.joblib')
+    model = joblib.load('./Models/finished_logistic_model.joblib')
     return model
  
 # Function to load SGD model
 @st.cache_data
 def load_sgd_model():
-    model = joblib.load('./models/finished_sgd_pipeline.joblib')
+    model = joblib.load('./Models/finished_sgd_pipeline.joblib')
     return model
  
 # Create function to select model
@@ -64,7 +64,7 @@ def select_model():
         pipeline = load_sgd_model()
    
     # Load encoder
-    encoder = joblib.load('./models/encoder.joblib')
+    encoder = joblib.load('./Models/encoder.joblib')
  
     return pipeline, encoder
  
