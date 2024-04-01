@@ -58,7 +58,7 @@ else:
                    
                            <div style="background-color: #ff9900; border-radius: 10px; width: 80%; margin-top: 20px;" >
                   
-                         <h4 style="margin-left: 30px">Average Tenure: 
+                         <h4 style="margin-left: 30px">Avg Tenure: 
                           </br>
                           </br>
                          {average_tenure:.2f} </h4>

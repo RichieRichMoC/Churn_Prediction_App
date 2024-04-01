@@ -32,7 +32,7 @@ name, authentication_status, username = authenticator.login(location='sidebar')
 if authentication_status == False:
     st.error("Username/Password is incorrect")  # Display error message if authentication fails
     st.code("""
-           Check and Ensure that you Credentials are Correct
+           Check and Ensure that your Credentials are Correct
                 OR
             Contact System Administrator if you dont have one
             
