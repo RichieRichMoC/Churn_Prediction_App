@@ -104,6 +104,8 @@ if authentication_status == True:
  
     # Display sidebar with user's name
     st.sidebar.title(f"Welcome {name}")
+
+
  
     if __name__ == '__main__':
         main()
